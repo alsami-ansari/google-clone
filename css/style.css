@@ -1,0 +1,98 @@
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .search-container {
+        max-width: 584px;
+        width: 90%;
+    }
+
+    .search-box {
+        display: flex;
+        align-items: center;
+        padding: 0.55rem 1rem;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        margin-bottom: 1.5rem;
+    }
+
+    .search-box:hover,
+    .search-box:focus-within {
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-color: transparent;
+    }
+
+    .search-icon {
+        margin-right: 0.75rem;
+    }
+
+    #search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        font-size: 0.95rem;
+        background: transparent;
+        width: 100%;
+    }
+
+    .clear-btn {
+        background: none;
+        border: none;
+        color: #70757a;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0 0.5rem;
+        display: none;
+    }
+
+    .clear-btn.visible {
+        display: block;
+    }
+
+    .search-actions {
+        display: flex;
+        gap: 0.20rem;
+        margin-left: 0.75rem;
+    }
+
+    .mic-btn,
+    .camera-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .action-btn {
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+    .action-btn:hover {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: #f8f9fa;
+        border-color: #dadce0;
+    }
+
+    @media (max-width: 600px) {
+        .search-container {
+            width: 100%;
+        }
+    
+    }
+    
