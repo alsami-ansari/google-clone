@@ -17,7 +17,6 @@ Check out the [live demo](https://onlinegoogle.netlify.app/) of the project
 
 ![Screenshot (105)](https://github.com/user-attachments/assets/e6beecc8-ae60-4f94-883f-d181e668bef7)
 
-*Caption: The homepage of the Google Clone project.*
 
 ## Technologies Used
 
